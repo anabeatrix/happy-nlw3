@@ -92,6 +92,11 @@ fieldset legend {
 
 .new-upload {
   position: relative;
+  margin-top: 1.7rem;
+}
+
+.new-upload + .new-upload {
+  margin-top: 1.7rem;
 }
 
 .new-upload span {
