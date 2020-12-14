@@ -25,8 +25,6 @@ module.exports = {
         orphanage.open_on_weekends = true;
       }
 
-      //orphanage.open_on_weekends  == 0 ? true : false;
-
       return response.render("orphanage", { orphanage: orphanage });
     } catch (error) {
       console.log(error);
@@ -72,8 +70,8 @@ module.exports = {
         open_on_weekends: fields.open_on_weekends,
       });
 
-      // redireciona 
-      return response.redirect('/orphanages')
+      // redireciona
+      return response.redirect("/orphanages");
     } catch (error) {
       console.log(error);
       return response.send("Erro no banco de dados");
