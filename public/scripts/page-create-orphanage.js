@@ -88,3 +88,16 @@ function toggleSelect(event) {
   // verificar se SIM ou NÃO
   input.value = button.dataset.value;
 }
+
+/*
+function validate(event) {
+  // NO FORM onsubmit=validate(event)
+  // validar se lat e lng estão preenchidos
+  const needsLatAndLng = true;
+
+  if(needsLatAndLng) {
+  event.preventDefault()
+
+  alert('Selecione ponto no mapa')
+  }
+}*/
